@@ -1,0 +1,19 @@
+TRAIN:
+  LR: 1.
+  BATCH_SIZE: 8
+
+MODEL:
+  DROPOUT: 0.1
+  NUM_QUERY: 150
+  EMBED_DIM: 768
+  ML: 6
+  TD: 3
+
+DATA:
+  IMAGE_H: 640
+  IMAGE_W: 640
+
+RNG_SEED: 1234
+OUTPUT_DIR: './output/transformer_tq_lv' # BCE
+
+NUM_GPUS: 4
