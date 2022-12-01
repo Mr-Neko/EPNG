@@ -15,7 +15,7 @@
 ### Cloning the repository
 
 ```
-$ git clone git@github.com:Mr-Neko/png.git
+$ git clone git@github.com:Mr-Neko/EPNG.git
 $ cd png
 ```
 
