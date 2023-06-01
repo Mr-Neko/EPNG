@@ -1,5 +1,5 @@
-# EPNG
-
+# Towards Real-Time Panoptic Narrative Grounding by an End-to-End Grounding Network
+The offical implementation of "Towards Real-Time Panoptic Narrative Grounding by an End-to-End Grounding Network", which is noted as EPNG.
 ## Installation
 
 ### Requirements
