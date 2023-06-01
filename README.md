@@ -1,4 +1,7 @@
 # Towards Real-Time Panoptic Narrative Grounding by an End-to-End Grounding Network
+[![](https://img.shields.io/badge/Paper-Arxiv-blue.svg)](https://arxiv.org/abs/2301.03160)
+[![](https://img.shields.io/badge/AAAI23-red.svg)]()
+
 The offical implementation of "Towards Real-Time Panoptic Narrative Grounding by an End-to-End Grounding Network", which is noted as EPNG.
 ## Installation
 
@@ -65,7 +68,7 @@ panoptic_narrative_grounding
 Modify the routes in [train_net.sh](train_net.sh) according to your local paths. If you want to only test the pretrained model, add `--ckpt_path ${PRETRAINED_MODEL_PATH}` and `--test_only`.
 
 ## Pretrained Bert Model
-The bert can be downloaded from HuggingFace, and fpn model should be downloaded from https://dl.fbaipublicfiles.com/detectron2/COCO-PanopticSegmentation/panoptic_fpn_R_101_3x/139514519/model_final_cafdb1.pkl
+The bert can be downloaded from HuggingFace, and fpn model should be downloaded from [here](https://drive.google.com/drive/folders/1xrJmbBJ35M4O1SNyzb9ZTsvlYrwmkAph?usp=sharing)
 ```
 pretrained_models
 |_fpn
